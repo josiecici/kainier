@@ -1,0 +1,23 @@
+.c-333 {
+  color: #333;
+}
+.c-ccc {
+  color: #ccc;
+}
+.b-c-ccc {
+  background-color: #f0f0f0;
+}
+.f-s12 {
+  font-size: 12px;
+}
+.f-s14 {
+  font-size: 14px;
+}
+.flex1-2c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p10 {
+  padding: 10px;
+}
