@@ -28,6 +28,20 @@
         </div>
       </div>
     </div>
+     <div class="box flex1">
+      <div class="imgOne">
+        <img class="o10" src="../assets/img/people.jpg" alt="">
+        <div class="msg flex1-2c">
+          <div class="c-333 f-s14 f-w600 l-h100 p1">客户反馈</div>
+        </div>
+      </div>
+      <div class="imgOne">
+        <img class="o10" src="../assets/img/thank.jpg" alt="">
+        <div class="msg flex1-2c">
+          <div class="c-fff f-s14 f-w600 l-h100 p1">致客户:感恩有您</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

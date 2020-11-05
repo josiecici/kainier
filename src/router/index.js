@@ -15,8 +15,8 @@ const routes = [{
         component: () => import('@/components/Index')
     },
     {
-        path: "/home",
-        component: () => import('@/views/home')
+        path: "/classify",
+        component: () => import('@/views/classify')
     }
 ]
 

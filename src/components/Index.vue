@@ -1,3 +1,4 @@
+// 主页
 <template>
   <div class="index">
     <!-- 头部 -->
