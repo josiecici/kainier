@@ -1,25 +1,26 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
- 
+
 // 引入组件
-import home from "./home.vue";
-import about from "./about.vue";
- 
+// import Index from "@/components/Index"
 // 要告诉 vue 使用 vueRouter
 Vue.use(VueRouter);
- 
-const routes = [
-    {
-        path:"/home",
-        component: home
+
+const routes = [{
+        path: "/",
+        redirect: "/index",
     },
     {
-        path: "/about",
-        component: about
+        path: "/index",
+        component: () => import('@/components/Index')
+    },
+    {
+        path: "/home",
+        component: () => import('@/views/home')
     }
 ]
- 
-var router =  new VueRouter({
+
+var router = new VueRouter({
     routes
 })
 export default router;

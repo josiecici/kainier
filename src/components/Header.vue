@@ -1,7 +1,7 @@
 <template>
   <div class="header flex1-2c b-c-ccc">
     <img src="../assets/img/logo.png" alt="">
-    <div class="title">凯尼儿</div>
+    <div class="title f-s14">凯尼儿</div>
   </div>
 </template>
 
@@ -18,13 +18,16 @@ export default {
 </script>
 
 <style lang='less' scoped>
-.header{
-    img{
-        width: 60px;
-        height: 50px;
-    }
-    .title{
-      font-size:14px
-    }
+.header {
+  background-image: url("../assets/img/top.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  img {
+    width: 60px;
+    height: 50px;
+  }
+  .title {
+    // font-size:14px
+  }
 }
 </style>

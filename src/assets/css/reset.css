@@ -23,6 +23,7 @@ select {
 }
 body {
   background: #fff;
+  color: #333;
   -webkit-text-size-adjust: 100%;
 }
 a {

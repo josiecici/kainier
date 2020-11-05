@@ -1,8 +1,17 @@
 .c-333 {
   color: #333;
 }
+.c-grey {
+  color: #5c5c5c;
+}
 .c-ccc {
   color: #ccc;
+}
+.c-eee {
+  color: #eee;
+}
+.c-fff {
+  color: #fff;
 }
 .b-c-ccc {
   background-color: #f0f0f0;
@@ -13,11 +22,57 @@
 .f-s14 {
   font-size: 14px;
 }
+.f-s16 {
+  font-size: 16px;
+}
+.f-w600 {
+  font-weight: 600;
+}
+.l-h100 {
+  line-height: 100%;
+}
+.flex1 {
+  display: flex;
+  flex-direction: row;
+}
+.flex2 {
+  display: flex;
+  flex-direction: column;
+}
+.flex2-2c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex1-sc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .flex1-2c {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.p1 {
+  padding: 1px;
+}
 .p10 {
   padding: 10px;
+}
+.m5 {
+  margin: 5px;
+}
+.m-b5 {
+  margin-bottom: 5px;
+}
+.o3 {
+  opacity: 0.3;
+}
+.o6 {
+  opacity: 0.6;
+}
+.o10 {
+  opacity: 1;
 }

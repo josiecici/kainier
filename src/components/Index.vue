@@ -1,13 +1,25 @@
 <template>
   <div class="index">
-    <Header></Header>
+    <!-- 头部 -->
+    <van-sticky>
+      <Header></Header>
+    </van-sticky>
+    <!-- 轮播 -->
+    <Carousel></Carousel>
+    <!-- 分类 -->
+    <Type></Type>
+    <!-- 列表 -->
+    <List></List>
   </div>
 </template>
 
 <script>
 import Header from "./Header";
+import Carousel from "./Carousel";
+import Type from "./Type";
+import List from "./List";
 export default {
-  components: { Header },
+  components: { Header, Carousel, Type, List },
   name: "",
   data() {
     return {};
