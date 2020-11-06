@@ -3,7 +3,7 @@
     <div class="top flex1-sc m-b5">
       <div class="flex2-2c" @click="toClass">
         <img class="m-b5" src="../assets/img/6.jpg" alt="">
-        <div class="f-s12">纯棉</div>
+        <div class="f-s12">棉麻</div>
       </div>
       <div class="flex2-2c" @click="toClass">
         <img class="m-b5" src="../assets/img/7.jpg" alt="">
@@ -18,8 +18,8 @@
         <div class="f-s12">印花</div>
       </div>
     </div>
-    <div class="top flex1-sc" @click="toClass">
-      <div class="flex2-2c">
+    <div class="top flex1-sc">
+      <div class="flex2-2c" @click="toClass">
         <img class="m-b5" src="../assets/img/10.jpg" alt="">
         <div class="f-s12">立体</div>
       </div>
@@ -48,9 +48,12 @@ export default {
   computed: {},
   watch: {},
   methods: {
-    toClass(e){
-      console.log('这是e',e);
-      this.$router.push("classify")
+    toClass(e) {
+      // console.log('这是e',e,e.currentTarget,e.currentTarget.innerText);
+      this.$router.push({
+        path: "/classify",
+        query: { title: e.currentTarget.innerText }
+      });
     }
   }
 };
